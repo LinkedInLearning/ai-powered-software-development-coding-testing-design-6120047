@@ -1,5 +1,5 @@
-# COURSENAME
-This is the repository for the LinkedIn Learning course `course-name`. The full course is available from [LinkedIn Learning][lil-course-url].
+# AI-Powered Software Development: Coding, Testing, and System Design
+This is the repository for the LinkedIn Learning course AI-Powered Software Development: Coding, Testing, and System Design. The full course is available from [LinkedIn Learning][lil-course-url].
 
 ![course-name-alt-text][lil-thumbnail-url] 
 
