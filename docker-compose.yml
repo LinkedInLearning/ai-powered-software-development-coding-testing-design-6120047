@@ -1,0 +1,23 @@
+version: "3.9"
+services:
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: expenses
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: app
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+  api:
+    build: .
+    environment:
+      DATABASE_URL: postgresql+psycopg2://app:app@db:5432/expenses
+      JWT_SECRET_KEY: change-me-in-prod
+    depends_on:
+      - db
+    ports:
+      - "8000:8000"
+volumes:
+  pgdata:
