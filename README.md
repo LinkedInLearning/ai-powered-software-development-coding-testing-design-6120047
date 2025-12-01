@@ -3,6 +3,10 @@ This is the repository for the LinkedIn Learning course AI-Powered Software Deve
 
 ![course-name-alt-text][lil-thumbnail-url] 
 
+## Course Description
+
+As generative AI rapidly transforms the software development landscape, developers and teams must adapt to new tools and workflows that enhance productivity and code quality. Lifelong programmer Shaun Wassell provides hands-on guidance for effectively integrating AI tools across the entire development lifecycle—from code generation to system architecture and agile project management. Shaun helps you gain practical skills for leveraging AI responsibly and efficiently, <em>without</em> replacing critical human oversight. The course is relevant for software developers looking to boost their personal productivity and teams aiming to modernize their development processes.
+
 _See the readme file in the main branch for updated instructions and information._
 ## Instructions
 This repository has branches for each of the videos in the course. You can use the branch pop up menu in github to switch to a specific branch and take a look at the course at that stage, or you can add `/tree/BRANCH_NAME` to the URL to go to the branch you want to access.
@@ -22,15 +26,14 @@ To resolve this issue:
     Add changes to git using this command: git add .
 	Commit changes using this command: git commit -m "some message"
 
-## Installing
-1. To use these exercise files, you must have the following installed:
-	- [list of requirements for course]
-2. Clone this repository into your local machine using the terminal (Mac), CMD (Windows), or a GUI tool like SourceTree.
-3. [Course-specific instructions]
+## Instructor
 
+Shaun Wassell
+
+Senior Software Engineer, Educator at CBT Nuggets
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQG0eDHsyOSqTA/learning-public-crop_675_1200/B4EZVdqqdwHUAY-/0/1741033220778?e=2147483647&v=beta&t=FxUDo6FA8W8CiFROwqfZKL_mzQhYx9loYLfjN-LNjgA
+[lil-course-url]: https://www.linkedin.com/learning/ai-powered-software-development-coding-testing-and-system-design
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQG0FNuvXckmcQ/learning-public-crop_675_1200/B4EZp6ZttyIIAc-/0/1762990152870?e=2147483647&v=beta&t=1MIrHnoNJe8YlUSbmrr7okANrLDqG_SIEDlUN8b6c7o
 
